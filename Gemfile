@@ -19,6 +19,9 @@ gem 'bcrypt', '~> 3.1.7'
 #JSON Web Token library for encoding and decoding jwt tokens
 gem 'jwt'
 
+#Easily Create serices between Controller and Model instead of Controller and view
+gem 'simple_command'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
