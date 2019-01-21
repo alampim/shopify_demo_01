@@ -1,11 +1,11 @@
 # README
-#Shopify 2019 summer intern challenege submission.
+*Shopify 2019 summer intern challenege submission.
 
-##Authors
+## Authors
 [Edward Crowder](https://github.com/crowdere) 
 [Michael Alampi](https://github.com/alampim)
 
-##Description
+## Description
 This project was done by utilizing pair programming and with no knowledge of Ruby or rails. 
 
 
@@ -22,18 +22,21 @@ DONE | Extra
 X | Fit these product purchases into the context of a simple shopping cart.
 X | Bonus points for making your API (at least partly) secure
 
-Things you may want to cover:
 
-* Ruby version
-	ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]
+#### Ruby version
 
-* System dependencies
-	See Gemfile
+ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]
+Rails 5.2.2
+
+#### System dependencies
+
+See Gemfile
   
-* Configuration
+#### Configuration
 	
-* Deployment instructions
-	1. Clone repo
+#### Deployment instructions
+
+  1. Clone repo
   2. bundler install
   3. rails db:migrate
   4. rails server
