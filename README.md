@@ -1,8 +1,9 @@
 # README
-*Shopify 2019 summer intern challenege submission.
+Shopify 2019 summer intern challenege submission.
 
 ## Authors
 [Edward Crowder](https://github.com/crowdere) 
+
 [Michael Alampi](https://github.com/alampim)
 
 ## Description
@@ -26,6 +27,7 @@ X | Bonus points for making your API (at least partly) secure
 #### Ruby version
 
 ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]
+
 Rails 5.2.2
 
 #### System dependencies
