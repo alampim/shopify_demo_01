@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   #PRODUCT ROUTES
   post 'product/all', to: 'product#all'
   post 'product/all/stocked', to: 'product#stocked'
-
+  post 'product/:id/purchase', to: 'product#purchase'
   resources :carts do
     resources :products
   end
