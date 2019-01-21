@@ -7,8 +7,10 @@ Rails.application.routes.draw do
   #CART ROUTES
   post 'cart', to: 'cart#list'
   post 'cart/:id/current', to: 'cart#products'
-  
+
   #PRODUCT ROUTES
+  post 'product/all', to: 'product#all'
+  post 'product/all/stocked', to: 'product#stocked'
 
   resources :carts do
     resources :products
