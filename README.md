@@ -1,5 +1,5 @@
 # README
-Shopify 2019 summer intern challenege submission.
+Shopify 2019 summer intern challenege submission. (Work in progress)
 
 ## Authors
 [Edward Crowder](https://github.com/crowdere) 
