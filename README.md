@@ -1,37 +1,40 @@
 # README
-A secure API end point for a bare bones marketplace application
+#Shopify 2019 summer intern challenege submission.
 
+##Authors
+[Edward Crowder](https://github.com/crowdere) 
+[Michael Alampi](https://github.com/alampim)
+
+##Description
+This project was done by utilizing pair programming and with no knowledge of Ruby or rails. 
+
+
+DONE | Task
+--- | ---
+X | Build a server side web api that can be used to fetch products one at a time 
+X | Build a server side web api that can be used to fetch products all at once 
+X | Every product should have a title, price, and inventory_count.
+X | Querying for all products should support passing an argument to only return products with available inventory.
+X | Products should be able to be "purchased" and subtract inventory by one
+
+DONE | Extra
+--- | ---
+X | Fit these product purchases into the context of a simple shopping cart.
+X | Bonus points for making your API (at least partly) secure
 
 Things you may want to cover:
 
 * Ruby version
+	ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]
 
 * System dependencies
-
+	See Gemfile
+  
 * Configuration
-
-* Database creation
-
-* Database initialization
-For demonstration purposes we chose to use a SQLITE3 database. In order to query against the api we need a few things:
-1) An authorized user
-2) JWT token
-3) API Endpoint
-
-To create a user we can open a terminal and enter:
-`rails c`
-`User.create!(name: 'Edward', email: 'edward@mail.com' , password: 'secure_password' , password_confirmation: 'secure_password')`
-
-Once we have a user we are able to make a call to the authentication controller to generate our JWT
-
-`curl -H "Content-Type: application/json" -X POST -d '{"email":"edward@mail.com","password":"secure_password"}' http://localhost:3000/authenticate`
-
-Congratulations! The endpoint should have returned your JWT.
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
+	
 * Deployment instructions
-
-* ...
+	1. Clone repo
+  2. bundler install
+  3. rails db:migrate
+  4. rails server
+  5. Curl -X POST to end points
