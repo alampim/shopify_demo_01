@@ -7,7 +7,7 @@ Shopify 2019 summer intern challenege submission.
 [Michael Alampi](https://github.com/alampim)
 
 ## Description
-This project was done by utilizing pair programming and with no knowledge of Ruby or rails. 
+This project was developed with agile pair programming development methodologies. Both authors had no prior knowledge of the Ruby lanague or rails framework. 
 
 
 DONE | Task
